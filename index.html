@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+
+  <title>Frontend Mentor | Blog preview card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 14px; text-align: center;
+    margin-top: 2rem; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    body {
+      background-color: hsl(47, 88%, 63%);
+      padding: 5rem 1rem;
+      font-family: figtree;
+    }
+   
+    .container{
+      max-width: 500px;
+      margin-inline: auto;
+      background-color: white;
+      border: 1px solid black ;
+      box-shadow: 10px 10px 3px;
+      border-radius: 1rem;
+      padding: 10px;
+    }
+    .container div:first-child img {
+      width: 100%;
+      border-radius: 1rem;
+    }
+  
+    h2{
+      background-color: yellow;
+      display: inline-block;
+      color: black;
+      font-size: 1rem;
+      padding: 3px 8px;
+      border-radius: 3px;
+      margin: 1.5rem 0 1rem;
+    }
+    h1 {
+      color:black ;
+    }
+    h1:hover{
+      color: yellow;
+    }
+    p{
+      margin-bottom: 2rem;
+    }
+    ul {
+      display: flex;
+      align-items: center;
+      list-style: none;
+      gap: 1rem;
+    }
+    ul li:nth-child(2) {
+      font-weight: bold;
+      font-size: 1rem;
+    }
+  
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <div>
+  <img src="./assets/images/illustration-article.svg">
+  </div>
+ <h2>Learning</h2> 
+ <p> Published 21 Dec 2023</p>
+  <h1>HTML & CSS foundations</h1>
+  <p>These languages are the backbone of every website, defining structure, content, and presentation.</p>
+
+  <ul>
+  <li><img src="./assets/images/image-avatar.webp"></li>
+  <li>Grey Hooper</li>
+  </ul>
+</div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Aima qureshi</a>.
+  </div>
+
+</body>
+</html>
